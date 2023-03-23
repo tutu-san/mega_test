@@ -1,4 +1,4 @@
-//ここでは、それぞれの関数を動かす処理を行う
+//ここ以外に意味はない！
 #include <Arduino.h>
 
 #include "main.h"
@@ -33,6 +33,7 @@ void setup(){
 
 }
 
+//ライブラリのテストコードから一部改変したうえで持ってきた。
 void loop(){
 	Serial.println("start");
 
